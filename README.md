@@ -18,7 +18,7 @@ installation instructions.
 
 ## Example
 
-```
+````
 λ hear
 Listening...
 Processing...
@@ -37,4 +37,4 @@ Execute? [Y/n]
 [main 3477818] added a readme
  1 file changed, 7 insertions(+)
  create mode 100644 README.md
- ```
+ ````
