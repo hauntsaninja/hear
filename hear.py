@@ -48,7 +48,7 @@ def main():
         api_key = os.environ["OPENAI_API_KEY"]
     except KeyError:
         raise RuntimeError("Set the OPENAI_API_KEY environment variable to your OpenAI API key.")
-    engine = "text-davinci-002"
+    engine = "text-davinci-003"
 
     initial_blocks = math.ceil(initial_seconds * blocks_per_sec)
     silence_blocks = math.ceil(silence_seconds * blocks_per_sec)
